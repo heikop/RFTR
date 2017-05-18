@@ -11,7 +11,7 @@ class Receiver
 {
 public:
     Receiver() = delete;
-    Receiver(const unsigned int pinnumber, const microsec max_noise_length=0);
+    Receiver(const unsigned int pinnumber, const microsec max_noise_length=static_cast<microsec>(0));
     Receiver(const Receiver&);
     Receiver(Receiver&&) = delete;
     Receiver& operator=(const Receiver&) = delete;

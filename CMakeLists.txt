@@ -1,4 +1,4 @@
-# if g++ is used, version 5.0 (or later) is required
+# if g++ and put_time is used, version 5.0 (or later) is required
 #clear;clear;cmake -DCMAKE_CXX_COMPILER=/usr/bin/g++-5 ..;make
 
 cmake_minimum_required (VERSION 2.8) # not tested with previous versions
